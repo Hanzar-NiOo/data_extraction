@@ -1,0 +1,14 @@
+Requirements
+    1. Persistent Storage (Text File(s))
+    2. Control Loop. While loop to keep program running
+    3. OOP
+        3.1. Object (Attributes, Methods)
+            3.1.1. Functional Design (add_item(), search_item())
+        3.2. Inheritance
+    4. Custom Algorithms
+        4.1. Binary Search
+        4.2. Quick Sort
+    5. Error Handling
+    6. Readability (All functions named logically)
+    7. Correct Usage for Variable Scopes
+    8. To present on 22nd April.
