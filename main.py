@@ -10,6 +10,7 @@ result_file = 'csv_files/result.csv'
 try:
 	Assignee = input("Assignee : ")
 	Dispute_side = input("Dispute Side : ")
+
 	controller.handle_main(main_file, result_file)
 	controller.handle_errMsg_file(file_A, result_file)
 	controller.handle_errMsg_file(file_B, result_file)
@@ -40,3 +41,5 @@ try:
 			break
 except ValueError as e:
 	print(f"Invalid Input: {e}")
+except ValueError as e:
+	print(f"Something went wrong, try again later.")

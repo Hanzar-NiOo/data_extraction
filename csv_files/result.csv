@@ -1,81 +1,81 @@
 ﻿No,Transfer_ID,Date,Time,Error Message,Assignee,Dispute Side
-1,01KPQRQWNQWGV5K49V2WFSF6NG,04/21/2026,10:18:12,API Call execution failed,HanZar,Orange
-2,01KPR84BD2VYX2VDCXRZS869A0,04/21/2026,14:47:36,java.net.SocketTimeoutException: timeout,HanZar,Orange
-3,01KPRAZ6K41H87AR0NW77ABBMY,04/21/2026,15:36:47,API Call execution failed,HanZar,Orange
-4,01KPRMGCMT7B043YQB42SBZEPJ,04/21/2026,18:23:25,Unknown MSISDN,HanZar,Orange
-5,01KPRMHTDY59ZF7446574XSQPD,04/21/2026,18:24:21,java.net.SocketTimeoutException: timeout,HanZar,Orange
-6,01KPRMHTY48DSGKKEMQ5KRCHTY,04/21/2026,18:24:37,java.net.SocketTimeoutException: timeout,HanZar,Orange
-7,01KPRMPBRPZ3MPVR05RHXT43ZV,04/21/2026,18:26:46,java.net.SocketTimeoutException: timeout,HanZar,Orange
-8,01KPRQ5RJVJ6Z9AJ95AGMQFN23,04/21/2026,19:10:13,java.net.SocketTimeoutException: timeout,HanZar,Orange
-9,01KPRRMESDTH7703S6PZV09ZSP,04/21/2026,19:35:41,Unknown MSISDN,HanZar,Orange
-10,01KPRSSZMK079W8AXTQYPRWX9X,04/21/2026,19:56:10,java.net.SocketTimeoutException: timeout,HanZar,Orange
-11,01KPRT3GDPBS16SNPMWBWA9638,04/21/2026,20:02:00,java.net.SocketTimeoutException: timeout,HanZar,Orange
-12,01KPRT54S7EF28B4VR34DZ6F2J,04/21/2026,20:02:26,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-13,01KPRT5E6VRKFCD5283B50M95W,04/21/2026,20:02:32,java.net.SocketTimeoutException: Connect timed out,HanZar,Orange
-14,01KPRTM0BGG58FW9J8C0GRPS48,04/21/2026,20:10:52,java.net.SocketTimeoutException: timeout,HanZar,Orange
-15,01KPRTPQXXJ8GHEPE1FDT3WW4X,04/21/2026,20:12:16,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-16,01KPRTX7GX8F6FF3WZ0ZWJH172,04/21/2026,20:15:30,java.net.SocketTimeoutException: timeout,HanZar,Orange
-17,01KPRV97SY478TT4Q9PRVFESM0,04/21/2026,20:22:14,java.net.SocketTimeoutException: Connect timed out,HanZar,Orange
-18,01KPRVJH1WGXGW02Y80ES5ST92,04/21/2026,20:27:25,java.net.SocketTimeoutException: timeout,HanZar,Orange
-19,01KPRVJXPTK4ZJ73HGYDJW4JVX,04/21/2026,20:27:40,API Call execution failed,HanZar,Orange
-20,01KPRVNNK5Y28NYJ8YKFNWVS6A,04/21/2026,20:29:03,java.net.SocketTimeoutException: timeout,HanZar,Orange
-21,01KPRVRNV9H9XMRHX9MV3W45CN,04/21/2026,20:30:40,java.net.SocketTimeoutException: timeout,HanZar,Orange
-22,01KPRVSZTTJJKENTAWQQFKECMT,04/21/2026,20:31:28,java.net.SocketTimeoutException: timeout,HanZar,Orange
-23,01KPRVVKR6NNWG9JFK1GHFADE1,04/21/2026,20:32:42,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-24,01KPRW0W3DYHWME5EPDZY91F7C,04/21/2026,20:34:55,java.net.SocketTimeoutException: timeout,HanZar,Orange
-25,01KPRW1400SB7K4JM3766RK1XH,04/21/2026,20:35:32,java.net.SocketTimeoutException: timeout,HanZar,Orange
-26,01KPRW1SANEGFEFY92GKVH57Q9,04/21/2026,20:35:52,java.net.SocketTimeoutException: timeout,HanZar,Orange
-27,01KPRW349E0QFX6ACNJFJE86CN,04/21/2026,20:36:57,java.net.SocketTimeoutException: timeout,HanZar,Orange
-28,01KPRW4J6RV1F40X1NN1EAXMKM,04/21/2026,20:37:31,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-29,01KPRW6HXCTWR8QW7R8Y89PP4C,04/21/2026,20:38:22,java.net.SocketTimeoutException: timeout,HanZar,Orange
-30,01KPRW925GECXM7QYD0EV04M7F,04/21/2026,20:39:26,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-31,01KPRW9VHWZHD1YT5CJDQH252V,04/21/2026,20:40:07,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-32,01KPRWAJ548ZRSESNC94NC82Y6,04/21/2026,20:40:16,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-33,01KPRWA0HGAG6AMV4KFNAMJRZ6,04/21/2026,20:40:27,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-34,01KPRWBAZC0ZHPAS1GKS0EXYB1,04/21/2026,20:40:49,java.net.SocketTimeoutException: Connect timed out,HanZar,Orange
-35,01KPRWBXY9DK1H70A27A41HDV4,04/21/2026,20:40:59,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-36,01KPRWCB43E51H021FCKJRHJZG,04/21/2026,20:41:20,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-37,01KPRWEPCAD874E8RYTR0G9E4Z,04/21/2026,20:42:38,java.net.SocketTimeoutException: timeout,HanZar,Orange
-38,01KPRWEF579SYBEZCG0AGEVZ7P,04/21/2026,20:42:51,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-39,01KPRWJ2502W4YB4NJAD5R3E7P,04/21/2026,20:44:30,java.net.SocketTimeoutException: timeout,HanZar,Orange
-40,01KPRWJZJ1XB9N70C9YYGS69E9,04/21/2026,20:45:11,java.net.SocketTimeoutException: timeout,HanZar,Orange
-41,01KPRWK183X7YMNH7639R1TE8M,04/21/2026,20:45:23,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-42,01KPRWM4YH974D8F6QKVRN3ZCR,04/21/2026,20:46:19,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-43,01KPRWK59R666REE7FRQR1XZST,04/21/2026,20:46:23,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-44,01KPRWMSJP9ETXX43A4DHX5NJQ,04/21/2026,20:46:46,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-45,01KPRWP25Q2XRZ5YKC9V28EPEG,04/21/2026,20:47:08,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-46,01KPRWQ39W37RBZFM81DXW9GN1,04/21/2026,20:47:35,java.net.SocketTimeoutException: timeout,HanZar,Orange
-47,01KPRWRCXM5DB03F77CB749F21,04/21/2026,20:48:11,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-48,01KPRWRQSK3CK9DKVYTB2CP07X,04/21/2026,20:48:41,java.net.SocketTimeoutException: timeout,HanZar,Orange
-49,01KPRWZJVG05B83QSTQECD6YJC,04/21/2026,20:51:57,java.net.SocketTimeoutException: timeout,HanZar,Orange
-50,01KPRX1MQY5SKCWQ1D4ZMP9YKT,04/21/2026,20:53:03,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-51,01KPRX74CKFPBZ8SJGPKMRFFJ6,04/21/2026,20:56:05,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-52,01KPRX7DQQP69QK81HEJR9GGAC,04/21/2026,20:56:50,java.net.SocketTimeoutException: timeout,HanZar,Orange
-53,01KPRXA8TYJ1CJ5V1KDAJKMCNT,04/21/2026,20:58:26,java.net.SocketTimeoutException: timeout,HanZar,Orange
-54,01KPRXB7NNYR1NFHP4AM0W6ZGJ,04/21/2026,20:58:37,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-55,01KPRXEQSJ3E10E2MA5Z08NKZM,04/21/2026,21:00:37,java.net.SocketTimeoutException: timeout,HanZar,Orange
-56,01KPRXEDJE6VQNHFKZFRAF2QAP,04/21/2026,21:00:49,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-57,01KPRXFCYT44F5H5BKM7PBJ9D1,04/21/2026,21:01:01,java.net.SocketTimeoutException: timeout,HanZar,Orange
-58,01KPRXFWYHMBQ6CE7966X3636H,04/21/2026,21:01:12,java.net.SocketTimeoutException: timeout,HanZar,Orange
-59,01KPRXG2E52JQPFRYXXZR1A2MC,04/21/2026,21:01:24,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-60,01KPRXY7DA7AWSD3PET0S5SJTS,04/21/2026,21:08:55,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-61,01KPRYHM7WHTH331KD4X69ZTZZ,04/21/2026,21:19:02,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-62,01KPRYKDFD3YAVF1TPAMEM47Z9,04/21/2026,21:20:53,java.net.SocketTimeoutException: timeout,HanZar,Orange
-63,01KPRYQC749FBEMJ1V1ARSBD7P,04/21/2026,21:22:23,java.net.SocketTimeoutException: timeout,HanZar,Orange
-64,01KPRYQW4K7RPF7Q8SS5JBJNBB,04/21/2026,21:22:37,java.net.SocketTimeoutException: timeout,HanZar,Orange
-65,01KPRYR7WS2CT1D95VEPAF17AG,04/21/2026,21:22:56,java.net.SocketTimeoutException: timeout,HanZar,Orange
-66,01KPRYR8KZZ9ZFQY9BCYMBPRGP,04/21/2026,21:23:08,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-67,01KPRYSTMRHPHGH708Q15X50EP,04/21/2026,21:23:46,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-68,01KPRYW33ME27J2PPKD3XTEQ35,04/21/2026,21:24:55,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-69,01KPRYWQP9Y8CBQ1VTN3VGS3KQ,04/21/2026,21:25:18,java.net.SocketTimeoutException: timeout,HanZar,Orange
-70,01KPRYWM0CV43M2V0X7JH91XFE,04/21/2026,21:25:19,java.net.SocketTimeoutException: timeout,HanZar,Orange
-71,01KPRYYDMPCNJ1F6SVJ2E5GWR0,04/21/2026,21:26:16,java.net.SocketTimeoutException: timeout,HanZar,Orange
-72,01KPRYY566GRHYSP2MKTNX3XMX,04/21/2026,21:26:28,java.net.SocketTimeoutException: timeout,HanZar,Orange
-73,01KPRYYFWK35ZFV1FHFX641JAD,04/21/2026,21:26:38,java.net.SocketTimeoutException: timeout,HanZar,Orange
-74,01KPRZANJ5HV3RC7BQBZ8H6VXH,04/21/2026,21:33:07,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-75,01KPRZBXV4H8HMHZ6PBRF3B2ZN,04/21/2026,21:33:32,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-76,01KPRZC6Y8JZSSJTQ9SVSF4GWZ,04/21/2026,21:33:42,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-77,01KPRZEY72HGVYWYSTSA9R575Q,04/21/2026,21:35:25,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-78,01KPRZGT9W32S5GG7X91Z6Q5VN,04/21/2026,21:36:18,java.net.SocketTimeoutException: timeout,HanZar,Orange
-79,01KPRZKWYBFY7K7FDSATA0ENTC,04/21/2026,21:37:54,java.net.SocketTimeoutException: Read timed out,HanZar,Orange
-80,01KPS5N0K4SDAMW3PZXP47KVGS,04/21/2026,23:23:04,API Call execution failed,HanZar,Orange
+1,01KPQRQWNQWGV5K49V2WFSF6NG,04/21/2026,10:18:12,API Call execution failed,HanZar,Orn
+2,01KPR84BD2VYX2VDCXRZS869A0,04/21/2026,14:47:36,java.net.SocketTimeoutException: timeout,HanZar,Orn
+3,01KPRAZ6K41H87AR0NW77ABBMY,04/21/2026,15:36:47,API Call execution failed,HanZar,Orn
+4,01KPRMGCMT7B043YQB42SBZEPJ,04/21/2026,18:23:25,Unknown MSISDN,HanZar,Orn
+5,01KPRMHTDY59ZF7446574XSQPD,04/21/2026,18:24:21,java.net.SocketTimeoutException: timeout,HanZar,Orn
+6,01KPRMHTY48DSGKKEMQ5KRCHTY,04/21/2026,18:24:37,java.net.SocketTimeoutException: timeout,HanZar,Orn
+7,01KPRMPBRPZ3MPVR05RHXT43ZV,04/21/2026,18:26:46,java.net.SocketTimeoutException: timeout,HanZar,Orn
+8,01KPRQ5RJVJ6Z9AJ95AGMQFN23,04/21/2026,19:10:13,java.net.SocketTimeoutException: timeout,HanZar,Orn
+9,01KPRRMESDTH7703S6PZV09ZSP,04/21/2026,19:35:41,Unknown MSISDN,HanZar,Orn
+10,01KPRSSZMK079W8AXTQYPRWX9X,04/21/2026,19:56:10,java.net.SocketTimeoutException: timeout,HanZar,Orn
+11,01KPRT3GDPBS16SNPMWBWA9638,04/21/2026,20:02:00,java.net.SocketTimeoutException: timeout,HanZar,Orn
+12,01KPRT54S7EF28B4VR34DZ6F2J,04/21/2026,20:02:26,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+13,01KPRT5E6VRKFCD5283B50M95W,04/21/2026,20:02:32,java.net.SocketTimeoutException: Connect timed out,HanZar,Orn
+14,01KPRTM0BGG58FW9J8C0GRPS48,04/21/2026,20:10:52,java.net.SocketTimeoutException: timeout,HanZar,Orn
+15,01KPRTPQXXJ8GHEPE1FDT3WW4X,04/21/2026,20:12:16,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+16,01KPRTX7GX8F6FF3WZ0ZWJH172,04/21/2026,20:15:30,java.net.SocketTimeoutException: timeout,HanZar,Orn
+17,01KPRV97SY478TT4Q9PRVFESM0,04/21/2026,20:22:14,java.net.SocketTimeoutException: Connect timed out,HanZar,Orn
+18,01KPRVJH1WGXGW02Y80ES5ST92,04/21/2026,20:27:25,java.net.SocketTimeoutException: timeout,HanZar,Orn
+19,01KPRVJXPTK4ZJ73HGYDJW4JVX,04/21/2026,20:27:40,API Call execution failed,HanZar,Orn
+20,01KPRVNNK5Y28NYJ8YKFNWVS6A,04/21/2026,20:29:03,java.net.SocketTimeoutException: timeout,HanZar,Orn
+21,01KPRVRNV9H9XMRHX9MV3W45CN,04/21/2026,20:30:40,java.net.SocketTimeoutException: timeout,HanZar,Orn
+22,01KPRVSZTTJJKENTAWQQFKECMT,04/21/2026,20:31:28,java.net.SocketTimeoutException: timeout,HanZar,Orn
+23,01KPRVVKR6NNWG9JFK1GHFADE1,04/21/2026,20:32:42,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+24,01KPRW0W3DYHWME5EPDZY91F7C,04/21/2026,20:34:55,java.net.SocketTimeoutException: timeout,HanZar,Orn
+25,01KPRW1400SB7K4JM3766RK1XH,04/21/2026,20:35:32,java.net.SocketTimeoutException: timeout,HanZar,Orn
+26,01KPRW1SANEGFEFY92GKVH57Q9,04/21/2026,20:35:52,java.net.SocketTimeoutException: timeout,HanZar,Orn
+27,01KPRW349E0QFX6ACNJFJE86CN,04/21/2026,20:36:57,java.net.SocketTimeoutException: timeout,HanZar,Orn
+28,01KPRW4J6RV1F40X1NN1EAXMKM,04/21/2026,20:37:31,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+29,01KPRW6HXCTWR8QW7R8Y89PP4C,04/21/2026,20:38:22,java.net.SocketTimeoutException: timeout,HanZar,Orn
+30,01KPRW925GECXM7QYD0EV04M7F,04/21/2026,20:39:26,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+31,01KPRW9VHWZHD1YT5CJDQH252V,04/21/2026,20:40:07,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+32,01KPRWAJ548ZRSESNC94NC82Y6,04/21/2026,20:40:16,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+33,01KPRWA0HGAG6AMV4KFNAMJRZ6,04/21/2026,20:40:27,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+34,01KPRWBAZC0ZHPAS1GKS0EXYB1,04/21/2026,20:40:49,java.net.SocketTimeoutException: Connect timed out,HanZar,Orn
+35,01KPRWBXY9DK1H70A27A41HDV4,04/21/2026,20:40:59,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+36,01KPRWCB43E51H021FCKJRHJZG,04/21/2026,20:41:20,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+37,01KPRWEPCAD874E8RYTR0G9E4Z,04/21/2026,20:42:38,java.net.SocketTimeoutException: timeout,HanZar,Orn
+38,01KPRWEF579SYBEZCG0AGEVZ7P,04/21/2026,20:42:51,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+39,01KPRWJ2502W4YB4NJAD5R3E7P,04/21/2026,20:44:30,java.net.SocketTimeoutException: timeout,HanZar,Orn
+40,01KPRWJZJ1XB9N70C9YYGS69E9,04/21/2026,20:45:11,java.net.SocketTimeoutException: timeout,HanZar,Orn
+41,01KPRWK183X7YMNH7639R1TE8M,04/21/2026,20:45:23,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+42,01KPRWM4YH974D8F6QKVRN3ZCR,04/21/2026,20:46:19,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+43,01KPRWK59R666REE7FRQR1XZST,04/21/2026,20:46:23,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+44,01KPRWMSJP9ETXX43A4DHX5NJQ,04/21/2026,20:46:46,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+45,01KPRWP25Q2XRZ5YKC9V28EPEG,04/21/2026,20:47:08,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+46,01KPRWQ39W37RBZFM81DXW9GN1,04/21/2026,20:47:35,java.net.SocketTimeoutException: timeout,HanZar,Orn
+47,01KPRWRCXM5DB03F77CB749F21,04/21/2026,20:48:11,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+48,01KPRWRQSK3CK9DKVYTB2CP07X,04/21/2026,20:48:41,java.net.SocketTimeoutException: timeout,HanZar,Orn
+49,01KPRWZJVG05B83QSTQECD6YJC,04/21/2026,20:51:57,java.net.SocketTimeoutException: timeout,HanZar,Orn
+50,01KPRX1MQY5SKCWQ1D4ZMP9YKT,04/21/2026,20:53:03,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+51,01KPRX74CKFPBZ8SJGPKMRFFJ6,04/21/2026,20:56:05,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+52,01KPRX7DQQP69QK81HEJR9GGAC,04/21/2026,20:56:50,java.net.SocketTimeoutException: timeout,HanZar,Orn
+53,01KPRXA8TYJ1CJ5V1KDAJKMCNT,04/21/2026,20:58:26,java.net.SocketTimeoutException: timeout,HanZar,Orn
+54,01KPRXB7NNYR1NFHP4AM0W6ZGJ,04/21/2026,20:58:37,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+55,01KPRXEQSJ3E10E2MA5Z08NKZM,04/21/2026,21:00:37,java.net.SocketTimeoutException: timeout,HanZar,Orn
+56,01KPRXEDJE6VQNHFKZFRAF2QAP,04/21/2026,21:00:49,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+57,01KPRXFCYT44F5H5BKM7PBJ9D1,04/21/2026,21:01:01,java.net.SocketTimeoutException: timeout,HanZar,Orn
+58,01KPRXFWYHMBQ6CE7966X3636H,04/21/2026,21:01:12,java.net.SocketTimeoutException: timeout,HanZar,Orn
+59,01KPRXG2E52JQPFRYXXZR1A2MC,04/21/2026,21:01:24,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+60,01KPRXY7DA7AWSD3PET0S5SJTS,04/21/2026,21:08:55,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+61,01KPRYHM7WHTH331KD4X69ZTZZ,04/21/2026,21:19:02,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+62,01KPRYKDFD3YAVF1TPAMEM47Z9,04/21/2026,21:20:53,java.net.SocketTimeoutException: timeout,HanZar,Orn
+63,01KPRYQC749FBEMJ1V1ARSBD7P,04/21/2026,21:22:23,java.net.SocketTimeoutException: timeout,HanZar,Orn
+64,01KPRYQW4K7RPF7Q8SS5JBJNBB,04/21/2026,21:22:37,java.net.SocketTimeoutException: timeout,HanZar,Orn
+65,01KPRYR7WS2CT1D95VEPAF17AG,04/21/2026,21:22:56,java.net.SocketTimeoutException: timeout,HanZar,Orn
+66,01KPRYR8KZZ9ZFQY9BCYMBPRGP,04/21/2026,21:23:08,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+67,01KPRYSTMRHPHGH708Q15X50EP,04/21/2026,21:23:46,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+68,01KPRYW33ME27J2PPKD3XTEQ35,04/21/2026,21:24:55,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+69,01KPRYWQP9Y8CBQ1VTN3VGS3KQ,04/21/2026,21:25:18,java.net.SocketTimeoutException: timeout,HanZar,Orn
+70,01KPRYWM0CV43M2V0X7JH91XFE,04/21/2026,21:25:19,java.net.SocketTimeoutException: timeout,HanZar,Orn
+71,01KPRYYDMPCNJ1F6SVJ2E5GWR0,04/21/2026,21:26:16,java.net.SocketTimeoutException: timeout,HanZar,Orn
+72,01KPRYY566GRHYSP2MKTNX3XMX,04/21/2026,21:26:28,java.net.SocketTimeoutException: timeout,HanZar,Orn
+73,01KPRYYFWK35ZFV1FHFX641JAD,04/21/2026,21:26:38,java.net.SocketTimeoutException: timeout,HanZar,Orn
+74,01KPRZANJ5HV3RC7BQBZ8H6VXH,04/21/2026,21:33:07,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+75,01KPRZBXV4H8HMHZ6PBRF3B2ZN,04/21/2026,21:33:32,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+76,01KPRZC6Y8JZSSJTQ9SVSF4GWZ,04/21/2026,21:33:42,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+77,01KPRZEY72HGVYWYSTSA9R575Q,04/21/2026,21:35:25,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+78,01KPRZGT9W32S5GG7X91Z6Q5VN,04/21/2026,21:36:18,java.net.SocketTimeoutException: timeout,HanZar,Orn
+79,01KPRZKWYBFY7K7FDSATA0ENTC,04/21/2026,21:37:54,java.net.SocketTimeoutException: Read timed out,HanZar,Orn
+80,01KPS5N0K4SDAMW3PZXP47KVGS,04/21/2026,23:23:04,API Call execution failed,HanZar,Orn
