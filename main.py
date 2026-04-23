@@ -1,11 +1,11 @@
 import controller
 import sort_engine
-import search_engine
+# import search_engine
 
-main_file = 'main.csv'
-file_A = 'Input_file_A.csv'
-file_B = 'Input_file_B.csv'
-result_file = 'result.csv'
+main_file = 'csv_files/main.csv'
+file_A = 'csv_files/Input_file_A.csv'
+file_B = 'csv_files/Input_file_B.csv'
+result_file = 'csv_files/result.csv'
 
 try:
 	Assignee = input("Assignee : ")
@@ -23,10 +23,10 @@ try:
 				sort_type = input ("1 for smallest to largest.\n2 for largest to smallest.\nq for back\n> ")
 				sort_type_loop = False
 				if (sort_type == '1'):
-					sort_engine.Time_Sort('result.csv', reverse=False)
+					sort_engine.Time_Sort(result_file, reverse=False)
 					break
 				elif (sort_type == '2'):
-					sort_engine.Time_Sort('result.csv', reverse=True)
+					sort_engine.Time_Sort(result_file, reverse=True)
 					break
 				elif (sort_type == 'q'):
 					break
