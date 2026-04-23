@@ -3,15 +3,14 @@ import os
 import re
 from datetime import datetime
 
-def handle_main(input_file, output_file):
-	keep_columns = ['Time', 'Transfer_ID']
+def handle_main(input_file, output_file, assignee, dispute_side):
 	try:
-		with open(input_file, mode='r', encoding='utf-8-sig') as csvfile:
-			reader = csv.DictReader(csvfile)
+		with open(input_file, mode='r', encoding='utf-8-sig') as infile:
+			reader = csv.DictReader(infile)
 			if reader.fieldnames and reader.fieldnames[0].startswith('sep='):
-				reader.fieldnames = next(csv.reader([next(csvfile)]))
+				reader.fieldnames = next(csv.reader([next(infile)]))
 			with open(output_file, mode='w', encoding='utf-8-sig') as outfile:
-				cols = ['No', 'Transfer_ID', 'Date', 'Time']
+				cols = ['No', 'Transfer_ID', 'Date', 'Time', 'Error Message', 'Assignee', 'Dispute Side']
 				writer = csv.DictWriter(outfile, fieldnames=cols)
 				writer.writeheader()
 				num = 1
@@ -22,6 +21,9 @@ def handle_main(input_file, output_file):
 						'Transfer_ID': row['Transfer_ID'],
 						'Date': dt.strftime('%#m/%d/%Y'),
 						'Time': dt.strftime('%H:%M:%S'),
+						'Error Message': '',
+						'Assignee': assignee,
+						'Dispute Side': dispute_side,
 					})
 					num += 1
 		print(f"Success: Cleaned data saved to {output_file}")
@@ -60,31 +62,6 @@ def handle_errMsg_file(input_file, result_file):
             writer.writerows(rows)
         os.replace(temp_file, result_file)
         print(f"Success: Error messages mapped into {result_file}.")
-    except FileNotFoundError:
-        print("Error: The source file was not found.")
-    except PermissionError:
-        print("Error: File is open in another program. Please close it and try again.")
-
-def add_cols(result_file, assignee, dispute_side):
-    try:
-        with open(result_file, mode='r', encoding='utf-8-sig') as f:
-            reader = csv.DictReader(f)
-            cols = list(reader.fieldnames)
-            rows = list(reader)
-        if 'Assignee' not in cols:
-            cols.append('Assignee')
-        if 'Dispute Side' not in cols:
-            cols.append('Dispute Side')
-        for row in rows:
-            row['Assignee'] = assignee
-            row['Dispute Side'] = dispute_side
-        temp_file = result_file + '.tmp'
-        with open(temp_file, mode='w', encoding='utf-8-sig') as f:
-            writer = csv.DictWriter(f, fieldnames=cols)
-            writer.writeheader()
-            writer.writerows(rows)
-        os.replace(temp_file, result_file)
-        print(f"Success: Assignee and Dispute Side added into {result_file}.")
     except FileNotFoundError:
         print("Error: The source file was not found.")
     except PermissionError:

@@ -11,10 +11,10 @@ try:
 	Assignee = input("Assignee : ")
 	Dispute_side = input("Dispute Side : ")
 
-	controller.handle_main(main_file, result_file)
+	controller.handle_main(main_file, result_file, Assignee, Dispute_side)
 	controller.handle_errMsg_file(file_A, result_file)
 	controller.handle_errMsg_file(file_B, result_file)
-	controller.add_cols(result_file, Assignee, Dispute_side)
+
 	sorting_loop = True
 	while (sorting_loop):
 		time_sort = input("Sort by time, Y/n? ")
