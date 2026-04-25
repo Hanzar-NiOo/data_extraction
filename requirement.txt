@@ -12,3 +12,7 @@ Requirements
     6. Readability (All functions named logically)
     7. Correct Usage for Variable Scopes
     8. To present on 22nd April.
+
+{transferId=01KPVBFX55YW51V69ZP5T4PPAY} http-nio-3003-exec-50:com.thitsaworks.mojaloop.coreconnector.cc.to.orange.OrangeClientImpl:516:(doConfirmationForTransfer) - Transfer Error Response from orange system to payee cc for transferId 01KPVBFX55YW51V69ZP5T4PPAY : {""exec_code"":""-1004"",""exec_msg"":""API Call execution failed"",""resultset"":{""TXNID"":""CI260422.1943.A88524""}}
+
+1776895359619,"2026-04-23 04:32:39 ERROR    {transferId=01KPVKE0GV1T0DJ509JZR6B6HX} http-nio-3003-exec-64:com.thitsaworks.mojaloop.coreconnector.cc.to.orange.OrangeClientImpl:540:(doConfirmationForTransfer) - Transfer Error Response from payee cc for transferId 01KPVKE0GV1T0DJ509JZR6B6HX : ""java.net.SocketTimeoutException: Read timed out""

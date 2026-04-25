@@ -1,82 +1,11 @@
 ﻿sep=,
 "Time","Transfer_ID","Error Message","Detailed Description"
-2026-04-21 23:23:04,01KPS5N0K4SDAMW3PZXP47KVGS,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
-2026-04-21 21:33:32,01KPRZBXV4H8HMHZ6PBRF3B2ZN,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:33:07,01KPRZANJ5HV3RC7BQBZ8H6VXH,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:26:38,01KPRYYFWK35ZFV1FHFX641JAD,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:26:28,01KPRYY566GRHYSP2MKTNX3XMX,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:26:16,01KPRYYDMPCNJ1F6SVJ2E5GWR0,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:25:18,01KPRYWQP9Y8CBQ1VTN3VGS3KQ,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:23:46,01KPRYSTMRHPHGH708Q15X50EP,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:23:08,01KPRYR8KZZ9ZFQY9BCYMBPRGP,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:22:37,01KPRYQW4K7RPF7Q8SS5JBJNBB,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:19:02,01KPRYHM7WHTH331KD4X69ZTZZ,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:08:55,01KPRXY7DA7AWSD3PET0S5SJTS,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:01:24,01KPRXG2E52JQPFRYXXZR1A2MC,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:01:12,01KPRXFWYHMBQ6CE7966X3636H,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:00:37,01KPRXEQSJ3E10E2MA5Z08NKZM,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:58:37,01KPRXB7NNYR1NFHP4AM0W6ZGJ,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:56:50,01KPRX7DQQP69QK81HEJR9GGAC,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:53:03,01KPRX1MQY5SKCWQ1D4ZMP9YKT,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:51:57,01KPRWZJVG05B83QSTQECD6YJC,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:48:41,01KPRWRQSK3CK9DKVYTB2CP07X,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:47:08,01KPRWP25Q2XRZ5YKC9V28EPEG,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:46:46,01KPRWMSJP9ETXX43A4DHX5NJQ,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:45:23,01KPRWK183X7YMNH7639R1TE8M,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:45:11,01KPRWJZJ1XB9N70C9YYGS69E9,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:44:30,01KPRWJ2502W4YB4NJAD5R3E7P,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:42:51,01KPRWEF579SYBEZCG0AGEVZ7P,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:40:59,01KPRWBXY9DK1H70A27A41HDV4,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:40:49,01KPRWBAZC0ZHPAS1GKS0EXYB1,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:40:27,01KPRWA0HGAG6AMV4KFNAMJRZ6,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:39:26,01KPRW925GECXM7QYD0EV04M7F,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:36:57,01KPRW349E0QFX6ACNJFJE86CN,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:34:55,01KPRW0W3DYHWME5EPDZY91F7C,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:32:42,01KPRVVKR6NNWG9JFK1GHFADE1,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:31:28,01KPRVSZTTJJKENTAWQQFKECMT,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:30:40,01KPRVRNV9H9XMRHX9MV3W45CN,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:27:40,01KPRVJXPTK4ZJ73HGYDJW4JVX,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
-2026-04-21 20:15:30,01KPRTX7GX8F6FF3WZ0ZWJH172,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:12:16,01KPRTPQXXJ8GHEPE1FDT3WW4X,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:10:52,01KPRTM0BGG58FW9J8C0GRPS48,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 19:56:10,01KPRSSZMK079W8AXTQYPRWX9X,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 19:35:41,01KPRRMESDTH7703S6PZV09ZSP,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
-2026-04-21 19:10:13,01KPRQ5RJVJ6Z9AJ95AGMQFN23,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 18:24:37,01KPRMHTY48DSGKKEMQ5KRCHTY,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 18:24:21,01KPRMHTDY59ZF7446574XSQPD,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:37:54,01KPRZKWYBFY7K7FDSATA0ENTC,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:36:18,01KPRZGT9W32S5GG7X91Z6Q5VN,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:35:25,01KPRZEY72HGVYWYSTSA9R575Q,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:33:42,01KPRZC6Y8JZSSJTQ9SVSF4GWZ,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:25:19,01KPRYWM0CV43M2V0X7JH91XFE,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:24:55,01KPRYW33ME27J2PPKD3XTEQ35,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:22:56,01KPRYR7WS2CT1D95VEPAF17AG,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:22:23,01KPRYQC749FBEMJ1V1ARSBD7P,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:20:53,01KPRYKDFD3YAVF1TPAMEM47Z9,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:01:01,01KPRXFCYT44F5H5BKM7PBJ9D1,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 21:00:49,01KPRXEDJE6VQNHFKZFRAF2QAP,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:58:26,01KPRXA8TYJ1CJ5V1KDAJKMCNT,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:56:05,01KPRX74CKFPBZ8SJGPKMRFFJ6,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:48:11,01KPRWRCXM5DB03F77CB749F21,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:47:35,01KPRWQ39W37RBZFM81DXW9GN1,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:46:23,01KPRWK59R666REE7FRQR1XZST,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:46:19,01KPRWM4YH974D8F6QKVRN3ZCR,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:42:38,01KPRWEPCAD874E8RYTR0G9E4Z,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:41:20,01KPRWCB43E51H021FCKJRHJZG,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:40:16,01KPRWAJ548ZRSESNC94NC82Y6,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:40:07,01KPRW9VHWZHD1YT5CJDQH252V,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:38:22,01KPRW6HXCTWR8QW7R8Y89PP4C,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:37:31,01KPRW4J6RV1F40X1NN1EAXMKM,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:35:52,01KPRW1SANEGFEFY92GKVH57Q9,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:35:32,01KPRW1400SB7K4JM3766RK1XH,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:29:03,01KPRVNNK5Y28NYJ8YKFNWVS6A,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:27:25,01KPRVJH1WGXGW02Y80ES5ST92,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:22:14,01KPRV97SY478TT4Q9PRVFESM0,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:02:32,01KPRT5E6VRKFCD5283B50M95W,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:02:26,01KPRT54S7EF28B4VR34DZ6F2J,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 20:02:00,01KPRT3GDPBS16SNPMWBWA9638,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 18:26:46,01KPRMPBRPZ3MPVR05RHXT43ZV,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 18:23:25,01KPRMGCMT7B043YQB42SBZEPJ,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
-2026-04-21 15:36:47,01KPRAZ6K41H87AR0NW77ABBMY,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
-2026-04-21 14:47:36,01KPR84BD2VYX2VDCXRZS869A0,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
-2026-04-21 10:18:12,01KPQRQWNQWGV5K49V2WFSF6NG,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
+2026-04-24 14:41:10,01KPZYZM641RQMSFZA8T7CS98V,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
+2026-04-24 13:44:14,01KPZVQ4MF1ZB6TQ6QWWVV2P2P,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
+2026-04-24 13:43:16,01KPZVNBZD1ZE23010WDEPFGZY,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
+2026-04-24 13:54:52,01KPZWAMKYC5EG31SGQQGEED47,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
+2026-04-24 13:44:24,01KPZVPNGHYSNJHKZRB4YZZW29,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
+2026-04-24 13:18:52,01KPZT8Y0HQ0RVG0S5KNA7QXJE,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
+2026-04-24 11:05:38,01KPZJM0RYXGKFG2GSKC3FB02T,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
+2026-04-24 09:32:52,01KPZDAVHG6Y0WQ0TQBTD8GCPH,Generic error due to the Payer or Payer FSP.,Generic error due to the Payer or Payer FSP.
+2026-04-24 09:26:59,01KPZD034NG61YB3PFKHXHFTBE,Payee or Payee FSP rejected the request.,Payee or Payee FSP rejected the request.
