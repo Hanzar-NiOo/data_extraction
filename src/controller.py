@@ -31,6 +31,8 @@ def handle_main(input_file, output_file, assignee, dispute_side):
 		print("Error: The source file was not found.")
 	except ValueError as e:
 		print(f"Error parsing date/time: {e}")
+	except:
+		print("Something went wrong, try again later.")
 
 def handle_errMsg_file(input_file, result_file):
 	def extract_fields(log_text):
@@ -72,3 +74,5 @@ def handle_errMsg_file(input_file, result_file):
 		print("Error: The source file was not found.")
 	except PermissionError:
 		print("Error: File is open in another program. Please close it and try again.")
+	except:
+		print("Something went wrong, try again later.")

@@ -39,7 +39,10 @@ try:
 		elif (time_sort == 'n'):
 			sorting_loop = False
 			break
+		else:
+			sorting_loop = True
+			print ("Invalid input, try again!")
 except ValueError as e:
 	print(f"Invalid Input: {e}")
 except:
-	print(f"Something went wrong, try again later.")
+	print("Something went wrong, try again later.")

@@ -15,18 +15,21 @@ def quick_sort(rows, reverse=False):
 
 def Time_Sort(result_file, reverse=False):
 	try:
-		with open(result_file, mode='r', newline='', encoding='utf-8-sig') as f:
+		with open(result_file, mode='r', encoding='utf-8-sig') as f:
 			reader = csv.DictReader(f)
 			cols = list(reader.fieldnames)
 			rows = list(reader)
+
 		sorted_rows = quick_sort(rows, reverse)
 		for i, row in enumerate(sorted_rows, start=1):
 			row['No'] = i
 		temp_file = result_file + '.tmp'
-		with open(temp_file, mode='w', newline='', encoding='utf-8-sig') as f:
+
+		with open(temp_file, mode='w', encoding='utf-8-sig') as f:
 			writer = csv.DictWriter(f, fieldnames=cols)
 			writer.writeheader()
 			writer.writerows(sorted_rows)
+
 		os.replace(temp_file, result_file)
 		order = "largest to smallest" if reverse else "smallest to largest"
 		print(f"Success: Sorted by Time ({order}).")
@@ -34,3 +37,5 @@ def Time_Sort(result_file, reverse=False):
 		print("Error: The source file was not found.")
 	except PermissionError:
 		print("Error: File is open in another program. Please close it and try again.")
+	except:
+		print(f"Something went wrong, try again later.")
