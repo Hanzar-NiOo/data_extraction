@@ -41,5 +41,5 @@ try:
 			break
 except ValueError as e:
 	print(f"Invalid Input: {e}")
-except ValueError as e:
+except:
 	print(f"Something went wrong, try again later.")
