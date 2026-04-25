@@ -14,34 +14,48 @@ try:
 	controller.handle_main(main_file, result_file, Assignee, Dispute_side)
 	controller.handle_errMsg_file(file_A, result_file)
 	controller.handle_errMsg_file(file_B, result_file)
+	sort_engine.Time_Sort(result_file)
 
-	sorting_loop = True
-	while (sorting_loop):
-		time_sort = input("Sort by time, Y/n? ")
-		if (time_sort == 'Y'):
-			sort_type_loop = True
-			while (sort_type_loop):
-				sort_type = input ("1 for smallest to largest.\n2 for largest to smallest.\nq for back\n> ")
-				sort_type_loop = False
-				if (sort_type == '1'):
-					sort_engine.Time_Sort(result_file, reverse=False)
-					break
-				elif (sort_type == '2'):
-					sort_engine.Time_Sort(result_file, reverse=True)
-					break
-				elif (sort_type == 'q'):
-					break
-				else:
-					sort_type_loop = True
-					print ("Invalid input, try again!")
-			sorting_loop = False
-			break
-		elif (time_sort == 'n'):
-			sorting_loop = False
+	# sorting_loop = True
+	# while (sorting_loop):
+	# 	time_sort = input("Sort by time, Y/n? ")
+	# 	if (time_sort == 'Y'):
+	# 		sort_type_loop = True
+	# 		while (sort_type_loop):
+	# 			sort_type = input ("1 for smallest to largest.\n2 for largest to smallest.\nq for back\n> ")
+	# 			sort_type_loop = False
+	# 			if (sort_type == '1'):
+	# 				sort_engine.Time_Sort(result_file, reverse=False)
+	# 				break
+	# 			elif (sort_type == '2'):
+	# 				sort_engine.Time_Sort(result_file, reverse=True)
+	# 				break
+	# 			elif (sort_type == 'q'):
+	# 				break
+	# 			else:
+	# 				sort_type_loop = True
+	# 				print ("Invalid input, try again!")
+	# 		sorting_loop = False
+	# 		break
+	# 	elif (time_sort == 'n'):
+	# 		sorting_loop = False
+	# 		break
+	# 	else:
+	# 		sorting_loop = True
+	# 		print ("Invalid input, try again!")
+
+	finding_loop = True
+	while (finding_loop):
+		find_trn = input("Find with transfer Id, Y/n? ")
+		if (find_trn == 'Y'):
+			finding_trn_loop = True
+		elif (find_trn == 'n'):
+			finding_loop = False
 			break
 		else:
-			sorting_loop = True
+			finding_loop = True
 			print ("Invalid input, try again!")
+
 except ValueError as e:
 	print(f"Invalid Input: {e}")
 except:

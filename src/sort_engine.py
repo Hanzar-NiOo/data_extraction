@@ -1,26 +1,23 @@
 import csv
 import os
 
-def quick_sort(rows, reverse=False):
+def quick_sort(rows):
 	if len(rows) <= 1:
 		return rows
 	pivot = rows[len(rows) // 2]
 	left  = [row for row in rows if row['Time'] < pivot['Time']]
 	mid   = [row for row in rows if row['Time'] == pivot['Time']]
 	right = [row for row in rows if row['Time'] > pivot['Time']]
-	if reverse:
-		return quick_sort(right, reverse) + mid + quick_sort(left, reverse)
-	else:
-		return quick_sort(left, reverse) + mid + quick_sort(right, reverse)
+	return quick_sort(left) + mid + quick_sort(right)
 
-def Time_Sort(result_file, reverse=False):
+def Time_Sort(result_file):
 	try:
 		with open(result_file, mode='r', encoding='utf-8-sig') as f:
 			reader = csv.DictReader(f)
 			cols = list(reader.fieldnames)
 			rows = list(reader)
 
-		sorted_rows = quick_sort(rows, reverse)
+		sorted_rows = quick_sort(rows)
 		for i, row in enumerate(sorted_rows, start=1):
 			row['No'] = i
 		temp_file = result_file + '.tmp'
