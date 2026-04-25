@@ -40,8 +40,8 @@ def handle_errMsg_file(input_file, result_file):
 		)
 		msg = err_msg.group(1) if err_msg else None
 		if msg in skip_messages:
-			return transfer_id, None  # skip — don't add this message
-		return transfer_id, msg  # not skipped — add it
+			return transfer_id, None
+		return transfer_id, msg
 
 	skip_messages = {'5100:Payee or Payee FSP rejected the request.'}
 	try:
@@ -49,22 +49,24 @@ def handle_errMsg_file(input_file, result_file):
 			reader = csv.DictReader(f)
 			if reader.fieldnames[0].startswith('sep='):
 				reader.fieldnames = next(csv.reader([next(f)]))
-			extracted = {
-				tid: msg
-				for row in reader
-				for tid, msg in [extract_fields(row['Line'])]
-				if tid and msg
-			}
+			extracted = {}
+			for row in reader:
+				tid, msg = extract_fields(row['Line'])
+				if tid and msg:
+					extracted[tid] = msg
+
 		with open(result_file, mode='r', encoding='utf-8-sig') as f:
 			reader = csv.DictReader(f)
-			cols = list(reader.fieldnames) + (['Error Message'] if 'Error Message' not in reader.fieldnames else [])
+			cols = list(reader.fieldnames)
 			rows = [{**row, 'Error Message': extracted.get(row['Transfer_ID'], row.get('Error Message', ''))} for row in reader]
+
 		temp_file = result_file + '.tmp'
 		with open(temp_file, mode='w', encoding='utf-8-sig') as f:
 			writer = csv.DictWriter(f, fieldnames=cols)
 			writer.writeheader()
 			writer.writerows(rows)
 		os.replace(temp_file, result_file)
+
 		print(f"Success: Error messages mapped into {result_file}.")
 	except FileNotFoundError:
 		print("Error: The source file was not found.")
