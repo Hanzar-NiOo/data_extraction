@@ -28,14 +28,13 @@ def Time_Sort(result_file):
 			writer.writerows(sorted_rows)
 
 		os.replace(temp_file, result_file)
-		order = "largest to smallest" if reverse else "smallest to largest"
-		print(f"Success: Sorted by Time ({order}).")
+		print("Success: Sorted by Time (Smallest to Largest).")
 	except FileNotFoundError:
-		print("Error in sort_engine.py")
+		print("\nError in sort_engine.py")
 		print("Error: The source file was not found.")
 	except PermissionError:
-		print("Error in sort_engine.py")
+		print("\nError in sort_engine.py")
 		print("Error: File is open in another program. Please close it and try again.")
 	except:
-		print("Error in sort_engine.py")
+		print("\nError in sort_engine.py")
 		print("Something went wrong, try again later.")

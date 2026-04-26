@@ -26,14 +26,18 @@ def handle_main(input_file, output_file, assignee, dispute_side):
 						'Dispute Side': dispute_side,
 					})
 					num += 1
-		print(f"Success: Cleaned data saved to {output_file}")
+		print(f"Success: Cleaned data saved to result.csv")
 	except FileNotFoundError:
+		print("\nError in controller.py")
 		print("Error: The source file was not found.")
 	except ValueError as e:
+		print("\nError in controller.py")
 		print(f"Error parsing date/time: {e}")
 	except PermissionError:
+		print("\nError in controller.py")
 		print("Error: File is open in another program. Please close it and try again.")
 	except:
+		print("\nError in controller.py")
 		print("Something went wrong, try again later.")
 
 def handle_errMsg_file(input_file, result_file):
@@ -71,13 +75,14 @@ def handle_errMsg_file(input_file, result_file):
 			writer.writerows(rows)
 		os.replace(temp_file, result_file)
 
-		print(f"Success: Error messages mapped into {result_file}.")
+		filename = os.path.splitext(os.path.basename(input_file))[0]
+		print(f"Success: Error messages from {filename} mapped into result.csv.")
 	except FileNotFoundError:
-		print("Error in controller.py")
+		print("\nError in controller.py")
 		print("Error: The source file was not found.")
 	except PermissionError:
-		print("Error in controller.py")
+		print("\nError in controller.py")
 		print("Error: File is open in another program. Please close it and try again.")
 	except:
-		print("Error in controller.py")
+		print("\nError in controller.py")
 		print("Something went wrong, try again later.")
