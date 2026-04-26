@@ -1,6 +1,7 @@
 import controller
 import sort_engine
 # import search_engine
+import summarize
 
 main_file = '../csv_files/main.csv'
 file_A = '../csv_files/Input_file_A.csv'
@@ -14,47 +15,22 @@ try:
 	controller.handle_main(main_file, result_file, Assignee, Dispute_side)
 	controller.handle_errMsg_file(file_A, result_file)
 	controller.handle_errMsg_file(file_B, result_file)
-	sort_engine.Time_Sort(result_file)
 
-	# sorting_loop = True
-	# while (sorting_loop):
-	# 	time_sort = input("Sort by time, Y/n? ")
-	# 	if (time_sort == 'Y'):
-	# 		sort_type_loop = True
-	# 		while (sort_type_loop):
-	# 			sort_type = input ("1 for smallest to largest.\n2 for largest to smallest.\nq for back\n> ")
-	# 			sort_type_loop = False
-	# 			if (sort_type == '1'):
-	# 				sort_engine.Time_Sort(result_file, reverse=False)
-	# 				break
-	# 			elif (sort_type == '2'):
-	# 				sort_engine.Time_Sort(result_file, reverse=True)
-	# 				break
-	# 			elif (sort_type == 'q'):
-	# 				break
-	# 			else:
-	# 				sort_type_loop = True
-	# 				print ("Invalid input, try again!")
-	# 		sorting_loop = False
-	# 		break
-	# 	elif (time_sort == 'n'):
-	# 		sorting_loop = False
+	sort_engine.Time_Sort(result_file)
+	summarize.summary = TransferErrorSummary(result_file).load()
+	summarize.summary.summary()
+
+	# while True:
+	# 	find_trn = input("Find with transfer Id, Y/n? ")
+	# 	if (find_trn == 'Y'):
+	# 		transfer_id = input("Enter Transfer ID to search (or 'q' to quit): ").strip()
+	# 		if transfer_id.lower() == 'q':
+	# 			break
+	# 		search_engine.search_transfer_id(result_file, transfer_id)
+	# 	elif (find_trn == 'n'):
 	# 		break
 	# 	else:
-	# 		sorting_loop = True
 	# 		print ("Invalid input, try again!")
-
-	finding_loop = True
-	while (finding_loop):
-		find_trn = input("Find with transfer Id, Y/n? ")
-		if (find_trn == 'Y'):
-			finding_trn_loop = True
-		elif (find_trn == 'n'):
-			finding_loop = False
-			break
-		else:
-			finding_loop = True
-			print ("Invalid input, try again!")
 
 except ValueError as e:
 	print(f"Invalid Input: {e}")

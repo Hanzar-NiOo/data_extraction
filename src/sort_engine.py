@@ -35,4 +35,4 @@ def Time_Sort(result_file):
 	except PermissionError:
 		print("Error: File is open in another program. Please close it and try again.")
 	except:
-		print(f"Something went wrong, try again later.")
+		print("Something went wrong, try again later.")
