@@ -31,8 +31,11 @@ def Time_Sort(result_file):
 		order = "largest to smallest" if reverse else "smallest to largest"
 		print(f"Success: Sorted by Time ({order}).")
 	except FileNotFoundError:
+		print("Error in sort_engine.py")
 		print("Error: The source file was not found.")
 	except PermissionError:
+		print("Error in sort_engine.py")
 		print("Error: File is open in another program. Please close it and try again.")
 	except:
+		print("Error in sort_engine.py")
 		print("Something went wrong, try again later.")

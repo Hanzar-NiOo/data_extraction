@@ -73,8 +73,11 @@ def handle_errMsg_file(input_file, result_file):
 
 		print(f"Success: Error messages mapped into {result_file}.")
 	except FileNotFoundError:
+		print("Error in controller.py")
 		print("Error: The source file was not found.")
 	except PermissionError:
+		print("Error in controller.py")
 		print("Error: File is open in another program. Please close it and try again.")
 	except:
+		print("Error in controller.py")
 		print("Something went wrong, try again later.")

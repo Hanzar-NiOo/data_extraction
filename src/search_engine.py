@@ -57,6 +57,8 @@ def search_transfer_id(result_file, transfer_id):
 		else:
 			print(f"Transfer ID '{target_id}' not found.")
 	except FileNotFoundError:
+		print("Error in search_engine.py")
 		print(f"Error: '{result_file}' was not found.")
 	except KeyError:
+		print("Error in search_engine.py")
 		print("Error: 'Transfer_ID' column not found. Check your CSV headers.")

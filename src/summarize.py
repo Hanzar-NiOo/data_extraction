@@ -1,3 +1,4 @@
+import csv
 from collections import Counter
 
 class TransferErrorSummary:
@@ -19,7 +20,15 @@ class TransferErrorSummary:
             print("No error transactions found.")
             return
 
-        print("=== Error Transaction Summary ===")
+        print("\n=== Error Transaction Summary ===\n")
         for error, count in self.error_counts.most_common():
             print(f"  {error} - {count} trns")
         print(f"\n  Total: {sum(self.error_counts.values())} trns")
+
+def	trn_summary(result_file):
+	try:
+		summary = TransferErrorSummary(result_file).load()
+		summary.summary()
+	except:
+		print("Error in summarize.py")
+		print("Something went wrong, try again later.")

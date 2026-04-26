@@ -17,8 +17,7 @@ try:
 	controller.handle_errMsg_file(file_B, result_file)
 
 	sort_engine.Time_Sort(result_file)
-	summarize.summary = TransferErrorSummary(result_file).load()
-	summarize.summary.summary()
+	summarize.trn_summary(result_file)
 
 	# while True:
 	# 	find_trn = input("Find with transfer Id, Y/n? ")
