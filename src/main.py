@@ -1,6 +1,5 @@
 import controller
 import sort_engine
-# import search_engine
 import summarize
 
 main_file = '../csv_files/main.csv'
