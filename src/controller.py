@@ -26,7 +26,7 @@ def handle_main(input_file, output_file, assignee, dispute_side):
 						'Dispute Side': dispute_side,
 					})
 					num += 1
-		print(f"Success: Cleaned data saved to result.csv")
+		print("Success: Cleaned data saved to result.csv")
 	except FileNotFoundError:
 		print("\nError in controller.py")
 		print("Error: The source file was not found.")
